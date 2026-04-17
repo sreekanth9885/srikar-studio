@@ -32,7 +32,7 @@ export const Services = () => {
           <motion.div key={service.id} variants={itemVariants}>
             <Card className="p-6 text-center">
               <div className="text-6xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-2 text-white">{service.title}</h3>
+                    <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-gray-600 dark:text-gray-400">{service.description}</p>
             </Card>
           </motion.div>
