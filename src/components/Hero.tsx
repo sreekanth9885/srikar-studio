@@ -25,7 +25,7 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 animate-slide-up">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display mb-4">
-          Srikar Studio
+          Snap Clickss
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto">
           Capturing life's most precious moments with artistry and passion
