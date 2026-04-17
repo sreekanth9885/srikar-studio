@@ -28,7 +28,7 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Camera className="w-8 h-8" />
-              <span className="text-xl font-bold font-display">Lens & Light</span>
+                          <span className="text-xl font-bold font-display">Srikar Studio</span>
             </div>
             <p className="text-gray-400 mb-4">
               Capturing life's most precious moments with artistry and passion. Creating timeless memories through our lens.
@@ -73,7 +73,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Lens & Light Studio. All rights reserved.</p>
+                  <p>&copy; 2024 Srikar Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>
