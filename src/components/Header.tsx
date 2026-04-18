@@ -44,7 +44,7 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('#')}>
             <Camera className="w-8 h-8 text-black dark:text-white" />
-            <span className="text-xl font-bold font-display text-white">Snap Clickss</span>
+            <span className="text-xl font-bold font-display">Snap Clickss</span>
           </div>
 
           {/* Desktop Navigation */}

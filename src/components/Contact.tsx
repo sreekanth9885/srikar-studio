@@ -36,7 +36,7 @@ export const Contact = () => {
               <Mail className="w-6 h-6 text-black dark:text-white" />
               <div>
                 <p className="font-semibold">Email</p>
-                <p className="text-gray-600 dark:text-gray-400">srikarstudio@gmail.com</p>
+                <p className="text-gray-600 dark:text-gray-400">snapclickss@gmail.com</p>
               </div>
             </div>
           </div>

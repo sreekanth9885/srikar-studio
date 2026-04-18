@@ -24,7 +24,7 @@ export const Testimonials = () => {
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
-                  <h4 className="font-bold text-lg text-white">{testimonial.name}</h4>
+                  <h4 className="font-bold text-lg">{testimonial.name}</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">{testimonial.role}</p>
                   <div className="flex gap-1 mt-1">
                     {[...Array(5)].map((_, i) => (

@@ -52,7 +52,7 @@ export const Booking = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all text-white"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all "
               placeholder="John Doe"
             />
             {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
@@ -68,7 +68,7 @@ export const Booking = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all text-white"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all "
               placeholder="+1 234 567 8900"
             />
             {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -83,7 +83,7 @@ export const Booking = () => {
               name="eventType"
               value={formData.eventType}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all text-white"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all "
             >
               <option value="">Select event type</option>
               <option value="wedding">Wedding Photography</option>
@@ -105,7 +105,7 @@ export const Booking = () => {
               name="date"
               value={formData.date}
               onChange={handleChange}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all text-white"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all "
             />
             {errors.date && <p className="text-red-500 text-sm mt-1">{errors.date}</p>}
           </div>
@@ -120,7 +120,7 @@ export const Booking = () => {
               value={formData.message}
               onChange={handleChange}
               rows={4}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all text-white"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-black dark:focus:ring-white focus:outline-none transition-all "
               placeholder="Tell us more about your event..."
             />
           </div>
